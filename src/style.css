@@ -1,3 +1,57 @@
-#main-text {
-  color: purple;
+/* navbar */
+
+#navbar-container {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+#nav-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#title {
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+#svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+/* Drop-Down-Button */
+#App {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-items {
+  display: block;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-clickables {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Drop-Down-Button */
+
+/* navbar */

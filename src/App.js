@@ -1,10 +1,10 @@
 import React from "react";
-import Main from "./componets/main";
+import HomePage from "./componets/homePage";
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      <HomePage />
       <p>Hello world</p>
     </div>
   );

@@ -1,7 +1,8 @@
 import "../style.css";
 import React, { Component } from "react";
+import Navbar from "./navbar";
 
-class Main extends Component {
+class HomePage extends Component {
   constructor(props) {
     super(props);
   }
@@ -9,10 +10,11 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <p id="main-text">This is main</p>
+        <Navbar />
+        <p id="main-text">Homepage</p>
       </div>
     );
   }
 }
 
-export default Main;
+export default HomePage;
