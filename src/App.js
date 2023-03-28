@@ -1,12 +1,29 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./componets/homePage";
+import About from "./componets/about";
+import Accesories from "./componets/accesories";
+import Sales from "./componets/sale";
+import Mens from "./componets/mens";
+import Womens from "./componets/womens";
+import Collections from "./componets/collections";
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
-      <p>Hello world</p>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route default path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/accesories" element={<Accesories />} />
+          <Route path="/sales" element={<Sales />} />
+          <Route path="/mens" element={<Mens />} />
+          <Route path="/womens" element={<Womens />} />
+          <Route path="/collections" element={<Collections />} />
+        </Routes>
+        <p>Hello world</p>
+      </div>
+    </Router>
   );
 }
 

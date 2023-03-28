@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Icon from "@mdi/react";
 import { mdiAccount, mdiCart } from "@mdi/js";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   constructor(props) {
@@ -23,9 +24,13 @@ class Navbar extends Component {
     return (
       <div>
         <div id="navbar-container">
-          <h1 id="title">Bella</h1>
+          <h1 id="title">
+            <Link to="/">Bella</Link>
+          </h1>
           <div id="nav-button-container">
-            <button>Home</button>
+            <button>
+              <Link to="/">Home</Link>
+            </button>
             <div id="dropdown-container">
               <button onClick={this.handleDropDown}>Shop</button>
               {this.state.isDropDownVisible && (
@@ -34,15 +39,27 @@ class Navbar extends Component {
                   className="dropdown-items"
                   onMouseLeave={this.handleDropDownExit}
                 >
-                  <p className="dropdown-clickables">Mens</p>
-                  <p className="dropdown-clickables">Womens</p>
-                  <p className="dropdown-clickables">Accessories</p>
+                  <p className="dropdown-clickables">
+                    <Link to="/mens">Mens</Link>
+                  </p>
+                  <p className="dropdown-clickables">
+                    <Link to="/womens">Womens</Link>
+                  </p>
+                  <p className="dropdown-clickables">
+                    <Link to="/accesories">Accesories</Link>
+                  </p>
                 </div>
               )}
             </div>
-            <button>About</button>
-            <button>On Sale</button>
-            <button>New Collections</button>
+            <button>
+              <Link to="/about">About</Link>
+            </button>
+            <button>
+              <Link to="/sales">On Sale</Link>
+            </button>
+            <button>
+              <Link to="/collections">New Collections</Link>
+            </button>
           </div>
           <div id="svg-container">
             <Icon path={mdiAccount} size={1} />
