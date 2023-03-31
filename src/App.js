@@ -7,6 +7,7 @@ import Sales from "./componets/sale";
 import Mens from "./componets/mens";
 import Womens from "./componets/womens";
 import Collections from "./componets/collections";
+import ProductPage from "./componets/childComponents/productPage";
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
           <Route path="/mens" element={<Mens />} />
           <Route path="/womens" element={<Womens />} />
           <Route path="/collections" element={<Collections />} />
+          <Route path="/product/:productId" element={<ProductPage />} />
         </Routes>
-        <p>Hello world</p>
       </div>
     </Router>
   );

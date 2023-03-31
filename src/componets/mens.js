@@ -1,19 +1,32 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
+import MenItems from "./childComponents/menItems";
+import Sidebar from "./sidebar";
 import Navbar from "./navbar";
+import data from "../clothingData.json";
 
-class Mens extends Component {
-  constructor(props) {
-    super(props);
-  }
+function Mens() {
+  const [items, setItems] = useState([]);
 
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <p>This is the mens section</p>
+  useEffect(() => {
+    const mensItems = data.men.filter((item) => item.gender === "men");
+    setItems(mensItems);
+  }, []);
+
+  return (
+    <div>
+      <Navbar />
+      <div className="main">
+        <div className="main-container">
+          <Sidebar />
+          <div id="clothing-items-grid">
+            {items.map((item) => (
+              <MenItems key={item.title} title={item.title} item={item} />
+            ))}
+          </div>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default Mens;

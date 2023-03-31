@@ -1,0 +1,225 @@
+{
+  "men": [
+    {
+      "id": "1",
+      "title": "Stripped Polo",
+      "icon": "/images/menImages/stripped-polo-main.png",
+      "icon-alt": "/images/menImages/stripped-polo-alt.jpeg",
+      "colors": [
+        {
+          "name": "orange",
+          "image": "/images/menImages/stripped-polo-main.png"
+        },
+        {
+          "name": "blue",
+          "image": "/images/menImages/stripped-polo-blue.png"
+        }
+      ],
+      "gender": "men",
+      "price": "23.99",
+      "sale": "yes",
+      "sale-price": "17.29",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    },
+    {
+      "id": "2",
+      "title": "Basic Crewneck",
+      "icon": "/images/menImages/sweater-main.jpeg",
+      "icon-alt": "/images/menImages/sweater-alt.jpeg",
+      "colors": [
+        {
+          "name": "cream",
+          "image": "/images/menImages/sweater-main.jpeg"
+        },
+        {
+          "name": "white",
+          "image": "/images/menImages/sweater-white.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "31.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    },
+    {
+      "id": "3",
+      "title": "Skinny Fit Jeans",
+      "icon": "/images/menImages/skinny-jeans-main.jpeg",
+      "icon-alt": "/images/menImages/skinny-jeans-alt.jpeg",
+      "colors": [
+        {
+          "name": "black",
+          "image": "/images/menImages/skinny-jeans-main.jpeg"
+        },
+        {
+          "name": "light",
+          "image": "/images/menImages/skinny-jeans-light.jpeg"
+        },
+        {
+          "name": "dark-blue",
+          "image": "/images/menImages/skinny-jeans-dark-blue.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "34.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    },
+    {
+      "id": "4",
+      "title": "Regular Fit Jeans",
+      "icon": "/images/menImages/regular-jeans-main.jpeg",
+      "icon-alt": "/images/menImages/regular-jeans-alt.jpeg",
+      "colors": [
+        {
+          "name": "Light",
+          "image": "/images/menImages/regular-jeans-main.jpeg"
+        },
+        {
+          "name": "black",
+          "image": "/images/menImages/regular-jeans-black.jpeg"
+        },
+        {
+          "name": "dark-blue",
+          "image": "/images/menImages/regular-jeans-dark-blue.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "35.29",
+      "sale": "yes",
+      "sale-price": "24.99",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    },
+    {
+      "id": "5",
+      "title": "Joggers",
+      "icon": "/images/menImages/joggers-main.jpeg",
+      "icon-alt": "/images/menImages/joggers-alt.jpeg",
+      "colors": [
+        {
+          "name": "Gray",
+          "image": "/images/menImages/joggers-main.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "28.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    },
+    {
+      "id": "6",
+      "title": "Hybrid Joggers",
+      "icon": "/images/menImages/hybrid-joggers-main.jpeg",
+      "icon-alt": "/images/menImages/hybrid-joggers-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/images/menImages/hybrid-joggers-main.jpeg"
+        },
+        {
+          "name": "White",
+          "image": "/images/menImages/hybrid-joggers-white.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "33.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    },
+    {
+      "id": "7",
+      "title": "Basic Hoodie",
+      "icon": "/images/menImages/hoode-main.jpeg",
+      "icon-alt": "/images/menImages/hoodie-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/images/menImages/hoode-main.jpeg"
+        },
+        {
+          "name": "Taupe",
+          "image": "/images/menImages/hoodie-taupe.jpeg"
+        },
+        {
+          "name": "Burgundy",
+          "image": "/images/menImages/hoodie-burgundy.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "30.99",
+      "sale": "yes",
+      "sale-price": "24.29",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    },
+    {
+      "id": "8",
+      "title": "Graphic Tee",
+      "icon": "/images/menImages/graphic-tee-main.jpeg",
+      "icon-alt": "/images/menImages/graphic-tee-alt.jpeg",
+      "colors": [
+        {
+          "name": "Navy",
+          "image": "/images/menImages/graphic-tee-main.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "24.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "yes"
+    },
+    {
+      "id": "9",
+      "title": "Graphic Sweater",
+      "icon": "/images/menImages/graphic-sweatshirt-main.jpeg",
+      "icon-alt": "/images/menImages/graphic-sweatshirt-alt.jpeg",
+      "colors": [
+        {
+          "name": "Light Gray",
+          "image": "/images/menImages/graphic-sweatshirt-main.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "30.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "yes"
+    },
+    {
+      "id": "10",
+      "title": "Basic Tee",
+      "icon": "/images/menImages/basic-tee-main.jpeg",
+      "icon-alt": "/images/menImages/basic-tee-alt.jpeg",
+      "colors": [
+        {
+          "name": "White",
+          "image": "/images/menImages/basic-tee-main.jpeg"
+        },
+        {
+          "name": "Black",
+          "image": "/images/menImages/basic-tee-black.jpeg"
+        },
+        {
+          "name": "Dark-Gray",
+          "image": "/images/menImages/basic-tee-gray.jpeg"
+        },
+        {
+          "name": "light-Gray",
+          "image": "/images/menImages/basic-tee-gray-2.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "30.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no"
+    }
+  ]
+}
