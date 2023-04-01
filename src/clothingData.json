@@ -23,7 +23,8 @@
       "sale": "yes",
       "sale-price": "17.29",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "shirt"
     },
     {
       "id": "2",
@@ -47,7 +48,8 @@
       "price": "31.99",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "sweater"
     },
     {
       "id": "3",
@@ -76,7 +78,8 @@
       "price": "34.29",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "pants"
     },
     {
       "id": "4",
@@ -106,7 +109,8 @@
       "sale": "yes",
       "sale-price": "24.99",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "pants"
     },
     {
       "id": "5",
@@ -125,7 +129,8 @@
       "price": "28.29",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "pants"
     },
     {
       "id": "6",
@@ -149,7 +154,8 @@
       "price": "33.29",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "pants"
     },
     {
       "id": "7",
@@ -179,7 +185,8 @@
       "sale": "yes",
       "sale-price": "24.29",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "sweater"
     },
     {
       "id": "8",
@@ -198,7 +205,8 @@
       "price": "24.99",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "yes"
+      "new": "yes",
+      "style": "shirt"
     },
     {
       "id": "9",
@@ -217,7 +225,8 @@
       "price": "30.99",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "yes"
+      "new": "yes",
+      "style": "sweater"
     },
     {
       "id": "10",
@@ -251,7 +260,8 @@
       "price": "30.99",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "no"
+      "new": "no",
+      "style": "shirt"
     }
   ]
 }
