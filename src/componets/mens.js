@@ -15,8 +15,8 @@ function Mens() {
   return (
     <div>
       <Navbar />
-      <div className="main">
-        <div className="main-container">
+      <div className="products-view">
+        <div className="products-container">
           <Sidebar />
           <div id="clothing-items-grid">
             {items.map((item) => (

@@ -6,7 +6,6 @@ a {
 /* navbar */
 
 #navbar-container {
-  position: sticky;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -60,3 +59,39 @@ a {
 /* Drop-Down-Button */
 
 /* navbar */
+
+/* Product View */
+
+.products-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 2em;
+}
+
+#clothing-items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Product View */
+
+/* Product Page */
+
+#product-page-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2em;
+  grid-gap: 1em;
+}
+
+#product-page-image {
+  display: flex;
+  gap: 1em;
+}
+
+#product-page-buttons {
+  position: sticky;
+  top: 0;
+}
+
+/* Product Page */

@@ -24,7 +24,7 @@ function MenItems(props) {
       <img
         src={props.item.icon}
         alt={props.item.title}
-        style={{ width: "100px", height: "100px" }}
+        style={{ width: "300px", height: "450px" }}
         onClick={handleClick}
       />
       <p>{props.item.title}</p>

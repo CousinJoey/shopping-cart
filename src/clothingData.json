@@ -2,17 +2,20 @@
   "men": [
     {
       "id": "1",
-      "title": "Stripped Polo",
+      "title": "Striped Polo",
       "icon": "/images/menImages/stripped-polo-main.png",
+      "icon2": "/images/menImages/stripped-polo-main2.png",
       "icon-alt": "/images/menImages/stripped-polo-alt.jpeg",
       "colors": [
         {
           "name": "orange",
-          "image": "/images/menImages/stripped-polo-main.png"
+          "image": "/images/menImages/stripped-polo-main.png",
+          "image2": "/images/menImages/stripped-polo-main2.png"
         },
         {
           "name": "blue",
-          "image": "/images/menImages/stripped-polo-blue.png"
+          "image": "/images/menImages/stripped-polo-blue.png",
+          "image2": "/images/menImages/stripped-polo-blue2.jpeg"
         }
       ],
       "gender": "men",
@@ -26,15 +29,18 @@
       "id": "2",
       "title": "Basic Crewneck",
       "icon": "/images/menImages/sweater-main.jpeg",
+      "icon2": "/images/menImages/sweater-main2.png",
       "icon-alt": "/images/menImages/sweater-alt.jpeg",
       "colors": [
         {
           "name": "cream",
-          "image": "/images/menImages/sweater-main.jpeg"
+          "image": "/images/menImages/sweater-main.jpeg",
+          "image2": "/images/menImages/sweater-main2.png"
         },
         {
           "name": "white",
-          "image": "/images/menImages/sweater-white.jpeg"
+          "image": "/images/menImages/sweater-white.jpeg",
+          "image2": "/images/menImages/sweater-white2.png"
         }
       ],
       "gender": "men",
@@ -47,19 +53,23 @@
       "id": "3",
       "title": "Skinny Fit Jeans",
       "icon": "/images/menImages/skinny-jeans-main.jpeg",
+      "icon2": "/images/menImages/skinny-jeans-main2.jpeg",
       "icon-alt": "/images/menImages/skinny-jeans-alt.jpeg",
       "colors": [
         {
           "name": "black",
-          "image": "/images/menImages/skinny-jeans-main.jpeg"
+          "image": "/images/menImages/skinny-jeans-main.jpeg",
+          "image2": "/images/menImages/skinny-jeans-main2.jpeg"
         },
         {
           "name": "light",
-          "image": "/images/menImages/skinny-jeans-light.jpeg"
+          "image": "/images/menImages/skinny-jeans-light.jpeg",
+          "image2": "/images/menImages/skinny-jeans-light2.jpeg"
         },
         {
           "name": "dark-blue",
-          "image": "/images/menImages/skinny-jeans-dark-blue.jpeg"
+          "image": "/images/menImages/skinny-jeans-dark-blue.jpeg",
+          "image2": "/images/menImages/skinny-jeans-dark-blue2.jpeg"
         }
       ],
       "gender": "men",
@@ -72,19 +82,23 @@
       "id": "4",
       "title": "Regular Fit Jeans",
       "icon": "/images/menImages/regular-jeans-main.jpeg",
+      "icon2": "/images/menImages/regular-jeans-main2.jpeg",
       "icon-alt": "/images/menImages/regular-jeans-alt.jpeg",
       "colors": [
         {
           "name": "Light",
-          "image": "/images/menImages/regular-jeans-main.jpeg"
+          "image": "/images/menImages/regular-jeans-main.jpeg",
+          "image2": "/images/menImages/regular-jeans-main2.jpeg"
         },
         {
           "name": "black",
-          "image": "/images/menImages/regular-jeans-black.jpeg"
+          "image": "/images/menImages/regular-jeans-black.jpeg",
+          "image2": "/images/menImages/regular-jeans-black2.jpeg"
         },
         {
           "name": "dark-blue",
-          "image": "/images/menImages/regular-jeans-dark-blue.jpeg"
+          "image": "/images/menImages/regular-jeans-dark-blue.jpeg",
+          "image2": "/images/menImages/regular-jeans-dark-blue2.jpeg"
         }
       ],
       "gender": "men",
@@ -98,11 +112,13 @@
       "id": "5",
       "title": "Joggers",
       "icon": "/images/menImages/joggers-main.jpeg",
+      "icon2": "/images/menImages/joggers-main2.jpeg",
       "icon-alt": "/images/menImages/joggers-alt.jpeg",
       "colors": [
         {
           "name": "Gray",
-          "image": "/images/menImages/joggers-main.jpeg"
+          "image": "/images/menImages/joggers-main.jpeg",
+          "image2": "/images/menImages/joggers-main2.jpeg"
         }
       ],
       "gender": "men",
@@ -115,15 +131,18 @@
       "id": "6",
       "title": "Hybrid Joggers",
       "icon": "/images/menImages/hybrid-joggers-main.jpeg",
+      "icon2": "/images/menImages/hybrid-joggers-main2.jpeg",
       "icon-alt": "/images/menImages/hybrid-joggers-alt.jpeg",
       "colors": [
         {
           "name": "Black",
-          "image": "/images/menImages/hybrid-joggers-main.jpeg"
+          "image": "/images/menImages/hybrid-joggers-main.jpeg",
+          "image2": "/images/menImages/hybrid-joggers-main2.jpeg"
         },
         {
           "name": "White",
-          "image": "/images/menImages/hybrid-joggers-white.jpeg"
+          "image": "/images/menImages/hybrid-joggers-white.jpeg",
+          "image2": "/images/menImages/hybrid-joggers-white2.jpeg"
         }
       ],
       "gender": "men",
@@ -136,19 +155,23 @@
       "id": "7",
       "title": "Basic Hoodie",
       "icon": "/images/menImages/hoode-main.jpeg",
+      "icon2": "/images/menImages/hoode-main2.jpeg",
       "icon-alt": "/images/menImages/hoodie-alt.jpeg",
       "colors": [
         {
           "name": "Black",
-          "image": "/images/menImages/hoode-main.jpeg"
+          "image": "/images/menImages/hoode-main.jpeg",
+          "image2": "/images/menImages/hoode-main2.jpeg"
         },
         {
           "name": "Taupe",
-          "image": "/images/menImages/hoodie-taupe.jpeg"
+          "image": "/images/menImages/hoodie-taupe.jpeg",
+          "image2": "/images/menImages/hoodie-taupe2.jpeg"
         },
         {
           "name": "Burgundy",
-          "image": "/images/menImages/hoodie-burgundy.jpeg"
+          "image": "/images/menImages/hoodie-burgundy.jpeg",
+          "image2": "/images/menImages/hoodie-burgundy2.jpeg"
         }
       ],
       "gender": "men",
@@ -162,11 +185,13 @@
       "id": "8",
       "title": "Graphic Tee",
       "icon": "/images/menImages/graphic-tee-main.jpeg",
+      "icon2": "/images/menImages/graphic-tee-main2.jpeg",
       "icon-alt": "/images/menImages/graphic-tee-alt.jpeg",
       "colors": [
         {
           "name": "Navy",
-          "image": "/images/menImages/graphic-tee-main.jpeg"
+          "image": "/images/menImages/graphic-tee-main.jpeg",
+          "image2": "/images/menImages/graphic-tee-main2.jpeg"
         }
       ],
       "gender": "men",
@@ -179,11 +204,13 @@
       "id": "9",
       "title": "Graphic Sweater",
       "icon": "/images/menImages/graphic-sweatshirt-main.jpeg",
+      "icon2": "/images/menImages/graphic-sweatshirt-main2.jpeg",
       "icon-alt": "/images/menImages/graphic-sweatshirt-alt.jpeg",
       "colors": [
         {
           "name": "Light Gray",
-          "image": "/images/menImages/graphic-sweatshirt-main.jpeg"
+          "image": "/images/menImages/graphic-sweatshirt-main.jpeg",
+          "image2": "/images/menImages/graphic-sweatshirt-main2.jpeg"
         }
       ],
       "gender": "men",
@@ -196,23 +223,28 @@
       "id": "10",
       "title": "Basic Tee",
       "icon": "/images/menImages/basic-tee-main.jpeg",
+      "icon2": "/images/menImages/basic-tee-main2.jpeg",
       "icon-alt": "/images/menImages/basic-tee-alt.jpeg",
       "colors": [
         {
           "name": "White",
-          "image": "/images/menImages/basic-tee-main.jpeg"
+          "image": "/images/menImages/basic-tee-main.jpeg",
+          "image2": "/images/menImages/basic-tee-main2.jpeg"
         },
         {
           "name": "Black",
-          "image": "/images/menImages/basic-tee-black.jpeg"
+          "image": "/images/menImages/basic-tee-black.jpeg",
+          "image2": "/images/menImages/basic-tee-black2.jpeg"
         },
         {
           "name": "Dark-Gray",
-          "image": "/images/menImages/basic-tee-gray.jpeg"
+          "image": "/images/menImages/basic-tee-gray.jpeg",
+          "image2": "/images/menImages/basic-tee-gray2.jpeg"
         },
         {
           "name": "light-Gray",
-          "image": "/images/menImages/basic-tee-gray-2.jpeg"
+          "image": "/images/menImages/basic-tee-gray-2.jpeg",
+          "image2": "/images/menImages/basic-tee-gray2-2.jpeg"
         }
       ],
       "gender": "men",

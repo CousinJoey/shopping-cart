@@ -22,7 +22,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <div>
+      <div id="navbar">
         <div id="navbar-container">
           <h1 id="title">
             <Link to="/">Bella</Link>
