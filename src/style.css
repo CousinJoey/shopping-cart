@@ -61,7 +61,7 @@ a {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 5;
 }
 
 .dropdown-clickables {
@@ -86,6 +86,51 @@ a {
 #clothing-items-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+#clothing-grid-price-and-title {
+  display: flex;
+  gap: 2em;
+}
+
+.sale-price {
+  text-decoration: line-through;
+}
+
+.article-img-container {
+  position: relative;
+  width: 300px;
+  height: 450px;
+}
+
+.article-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.red-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 125px solid red;
+  border-left: 125px solid transparent;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  position: absolute;
+  top: -300%;
+  transform: translate(-85%, -450%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* Product View */
