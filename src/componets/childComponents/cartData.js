@@ -13,9 +13,27 @@ export const getCartData = () => {
 
 export const cartCost = () => {
   const cartData = getCartData();
-  const totalCost = cartData.reduce(
-    (acc, item) => acc + parseFloat(item.price),
-    0
-  );
-  return totalCost;
+  const totalCost = cartData.reduce((acc, item) => {
+    if (item.sale === "yes") {
+      return acc + parseFloat(item.salePrice);
+    } else {
+      return acc + parseFloat(item.price);
+    }
+  }, 0);
+  const finalCost = Math.round(totalCost * 100) / 100;
+  return finalCost.toFixed(2);
+};
+
+export const cartSavings = () => {
+  const cartData = getCartData();
+  const totalSavings = cartData.reduce((acc, item) => {
+    if (item.sale === "yes") {
+      const savings = parseFloat(item.price) - parseFloat(item.salePrice);
+      return acc + savings;
+    } else {
+      return acc;
+    }
+  }, 0);
+  const roundedSavings = Math.round(totalSavings * 100) / 100;
+  return roundedSavings.toFixed(2);
 };

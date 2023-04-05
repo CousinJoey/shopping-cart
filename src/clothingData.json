@@ -21,7 +21,7 @@
       "gender": "men",
       "price": "23.99",
       "sale": "yes",
-      "sale-price": "17.29",
+      "salePrice": "17.29",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
       "style": "shirt"
@@ -106,8 +106,7 @@
       ],
       "gender": "men",
       "price": "35.29",
-      "sale": "yes",
-      "sale-price": "24.99",
+      "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
       "style": "pants"
@@ -152,7 +151,8 @@
       ],
       "gender": "men",
       "price": "33.29",
-      "sale": "no",
+      "sale": "yes",
+      "salePrice": "28.29",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
       "style": "pants"
@@ -183,7 +183,7 @@
       "gender": "men",
       "price": "30.99",
       "sale": "yes",
-      "sale-price": "24.29",
+      "salePrice": "24.29",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
       "style": "sweater"
@@ -311,7 +311,7 @@
       "gender": "women",
       "price": "35.99",
       "sale": "yes",
-      "sale-price": "29.99",
+      "salePrice": "29.99",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
       "style": "pants"
@@ -402,7 +402,7 @@
       "gender": "women",
       "price": "24.29",
       "sale": "yes",
-      "sale-price": "20.00",
+      "salePrice": "20.00",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
       "style": "top"

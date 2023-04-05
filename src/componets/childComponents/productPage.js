@@ -25,7 +25,13 @@ function ProductPage() {
         image: imageColor,
         color: colorName,
         price: location.state.article.price,
+        sale: location.state.article.sale,
       };
+
+      if (location.state.article.sale === "yes") {
+        newItem.salePrice = location.state.article.salePrice;
+      }
+
       addToCart(newItem);
       setCartCount(getCartData().length);
     }
