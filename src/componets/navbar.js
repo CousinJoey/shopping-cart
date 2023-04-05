@@ -69,7 +69,9 @@ class Navbar extends Component {
             <Link to="/cart">
               <Icon path={mdiCart} size={1} />
             </Link>
-            {cartArray.length > 0 && <div>{cartArray.length}</div>}
+            {cartArray.length > 0 && (
+              <div id="cart-icon">{cartArray.length}</div>
+            )}
           </div>
         </div>
       </div>

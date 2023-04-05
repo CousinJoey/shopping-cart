@@ -24,10 +24,25 @@ a {
 }
 
 #svg-container {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2em;
+}
+
+#cart-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Drop-Down-Button */

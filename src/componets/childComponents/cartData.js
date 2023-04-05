@@ -10,3 +10,12 @@ export const getCartData = () => {
   const cartDataJson = localStorage.getItem(CART_DATA_KEY);
   return cartDataJson ? JSON.parse(cartDataJson) : [];
 };
+
+export const cartCost = () => {
+  const cartData = getCartData();
+  const totalCost = cartData.reduce(
+    (acc, item) => acc + parseFloat(item.price),
+    0
+  );
+  return totalCost;
+};

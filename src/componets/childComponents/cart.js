@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../navbar";
-import { getCartData } from "./cartData";
+import { getCartData, cartCost } from "./cartData";
 
 function Cart() {
   const [cartData, setCartData] = useState(getCartData());
@@ -10,6 +10,8 @@ function Cart() {
     localStorage.setItem("cartData", JSON.stringify(updatedCartData));
     setCartData(updatedCartData);
   };
+
+  const totalPrice = cartCost();
 
   return (
     <div>
@@ -50,6 +52,7 @@ function Cart() {
         <div id="checkout-sidebar">
           <p>This is the checkout sidebar</p>
           <button>Checkout</button>
+          <p>{totalPrice}</p>
         </div>
       </div>
     </div>
