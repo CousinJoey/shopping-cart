@@ -8,6 +8,7 @@ import Mens from "./componets/mens";
 import Womens from "./componets/womens";
 import Collections from "./componets/collections";
 import ProductPage from "./componets/childComponents/productPage";
+import Cart from "./componets/childComponents/cart";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/mens" element={<Mens />} />
           <Route path="/womens" element={<Womens />} />
           <Route path="/collections" element={<Collections />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/product/:productId" element={<ProductPage />} />
         </Routes>
       </div>

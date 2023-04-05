@@ -95,3 +95,39 @@ a {
 }
 
 /* Product Page */
+
+/* Checkout Page */
+
+#checkout-page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkout-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 4em;
+}
+
+.checkout-item-descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name-and-price {
+  display: flex;
+  gap: 2em;
+}
+
+.color-and-size {
+  display: flex;
+  gap: 2em;
+}
+
+.quantity-and-remove {
+  display: flex;
+  gap: 2em;
+}
+
+/* Checkout Page */

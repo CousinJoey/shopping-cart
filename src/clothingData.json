@@ -5,15 +5,15 @@
       "title": "Striped Polo",
       "icon": "/images/menImages/stripped-polo-main.png",
       "icon2": "/images/menImages/stripped-polo-main2.png",
-      "icon-alt": "/images/menImages/stripped-polo-alt.jpeg",
+      "iconAlt": "/images/menImages/stripped-polo-alt.jpeg",
       "colors": [
         {
-          "name": "orange",
+          "name": "Orange",
           "image": "/images/menImages/stripped-polo-main.png",
           "image2": "/images/menImages/stripped-polo-main2.png"
         },
         {
-          "name": "blue",
+          "name": "Blue",
           "image": "/images/menImages/stripped-polo-blue.png",
           "image2": "/images/menImages/stripped-polo-blue2.jpeg"
         }
@@ -31,15 +31,15 @@
       "title": "Basic Crewneck",
       "icon": "/images/menImages/sweater-main.jpeg",
       "icon2": "/images/menImages/sweater-main2.png",
-      "icon-alt": "/images/menImages/sweater-alt.jpeg",
+      "iconAlt": "/images/menImages/sweater-alt.jpeg",
       "colors": [
         {
-          "name": "cream",
+          "name": "Cream",
           "image": "/images/menImages/sweater-main.jpeg",
           "image2": "/images/menImages/sweater-main2.png"
         },
         {
-          "name": "white",
+          "name": "White",
           "image": "/images/menImages/sweater-white.jpeg",
           "image2": "/images/menImages/sweater-white2.png"
         }
@@ -56,20 +56,20 @@
       "title": "Skinny Fit Jeans",
       "icon": "/images/menImages/skinny-jeans-main.jpeg",
       "icon2": "/images/menImages/skinny-jeans-main2.jpeg",
-      "icon-alt": "/images/menImages/skinny-jeans-alt.jpeg",
+      "iconAlt": "/images/menImages/skinny-jeans-alt.jpeg",
       "colors": [
         {
-          "name": "black",
+          "name": "Black",
           "image": "/images/menImages/skinny-jeans-main.jpeg",
           "image2": "/images/menImages/skinny-jeans-main2.jpeg"
         },
         {
-          "name": "light",
+          "name": "Light",
           "image": "/images/menImages/skinny-jeans-light.jpeg",
           "image2": "/images/menImages/skinny-jeans-light2.jpeg"
         },
         {
-          "name": "dark-blue",
+          "name": "Dark-Blue",
           "image": "/images/menImages/skinny-jeans-dark-blue.jpeg",
           "image2": "/images/menImages/skinny-jeans-dark-blue2.jpeg"
         }
@@ -86,7 +86,7 @@
       "title": "Regular Fit Jeans",
       "icon": "/images/menImages/regular-jeans-main.jpeg",
       "icon2": "/images/menImages/regular-jeans-main2.jpeg",
-      "icon-alt": "/images/menImages/regular-jeans-alt.jpeg",
+      "iconAlt": "/images/menImages/regular-jeans-alt.jpeg",
       "colors": [
         {
           "name": "Light",
@@ -94,12 +94,12 @@
           "image2": "/images/menImages/regular-jeans-main2.jpeg"
         },
         {
-          "name": "black",
+          "name": "Black",
           "image": "/images/menImages/regular-jeans-black.jpeg",
           "image2": "/images/menImages/regular-jeans-black2.jpeg"
         },
         {
-          "name": "dark-blue",
+          "name": "Dark-blue",
           "image": "/images/menImages/regular-jeans-dark-blue.jpeg",
           "image2": "/images/menImages/regular-jeans-dark-blue2.jpeg"
         }
@@ -117,7 +117,7 @@
       "title": "Joggers",
       "icon": "/images/menImages/joggers-main.jpeg",
       "icon2": "/images/menImages/joggers-main2.jpeg",
-      "icon-alt": "/images/menImages/joggers-alt.jpeg",
+      "iconAlt": "/images/menImages/joggers-alt.jpeg",
       "colors": [
         {
           "name": "Gray",
@@ -137,7 +137,7 @@
       "title": "Hybrid Joggers",
       "icon": "/images/menImages/hybrid-joggers-main.jpeg",
       "icon2": "/images/menImages/hybrid-joggers-main2.jpeg",
-      "icon-alt": "/images/menImages/hybrid-joggers-alt.jpeg",
+      "iconAlt": "/images/menImages/hybrid-joggers-alt.jpeg",
       "colors": [
         {
           "name": "Black",
@@ -162,7 +162,7 @@
       "title": "Basic Hoodie",
       "icon": "/images/menImages/hoode-main.jpeg",
       "icon2": "/images/menImages/hoode-main2.jpeg",
-      "icon-alt": "/images/menImages/hoodie-alt.jpeg",
+      "iconAlt": "/images/menImages/hoodie-alt.jpeg",
       "colors": [
         {
           "name": "Black",
@@ -193,7 +193,7 @@
       "title": "Graphic Tee",
       "icon": "/images/menImages/graphic-tee-main.jpeg",
       "icon2": "/images/menImages/graphic-tee-main2.jpeg",
-      "icon-alt": "/images/menImages/graphic-tee-alt.jpeg",
+      "iconAlt": "/images/menImages/graphic-tee-alt.jpeg",
       "colors": [
         {
           "name": "Navy",
@@ -213,7 +213,7 @@
       "title": "Graphic Sweater",
       "icon": "/images/menImages/graphic-sweatshirt-main.jpeg",
       "icon2": "/images/menImages/graphic-sweatshirt-main2.jpeg",
-      "icon-alt": "/images/menImages/graphic-sweatshirt-alt.jpeg",
+      "iconAlt": "/images/menImages/graphic-sweatshirt-alt.jpeg",
       "colors": [
         {
           "name": "Light Gray",
@@ -233,7 +233,7 @@
       "title": "Basic Tee",
       "icon": "/images/menImages/basic-tee-main.jpeg",
       "icon2": "/images/menImages/basic-tee-main2.jpeg",
-      "icon-alt": "/images/menImages/basic-tee-alt.jpeg",
+      "iconAlt": "/images/menImages/basic-tee-alt.jpeg",
       "colors": [
         {
           "name": "White",
@@ -262,6 +262,390 @@
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
       "style": "shirt"
+    }
+  ],
+  "women": [
+    {
+      "id": "11",
+      "title": "Smocked Top",
+      "icon": "/images/womenImages/smocked-top-main.jpeg",
+      "icon2": "/images/womenImages/smocked-top-main2.jpeg",
+      "iconAlt": "/images/womenImages/smocked-top-alt.jpeg",
+      "colors": [
+        {
+          "name": "Green and Biege",
+          "image": "/images/womenImages/smocked-top-main.jpeg",
+          "image2": "/images/womenImages/smocked-top-main2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "32.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "yes",
+      "style": "top"
+    },
+    {
+      "id": "12",
+      "title": "Slacks",
+      "icon": "/images/womenImages/slacks-main.jpeg",
+      "icon2": "/images/womenImages/slacks-main2.jpeg",
+      "iconAlt": "/images/womenImages/slacks-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/images/womenImages/slacks-main.jpeg",
+          "image2": "/images/womenImages/slacks-main2.jpeg"
+        },
+        {
+          "name": "Navy",
+          "image": "/images/womenImages/slacks-navy.jpeg",
+          "image2": "/images/womenImages/slacks-navy2.jpeg"
+        },
+        {
+          "name": "Cream",
+          "image": "/images/womenImages/slacks-cream.jpeg",
+          "image2": "/images/womenImages/slacks-cream2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "35.99",
+      "sale": "yes",
+      "sale-price": "29.99",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "pants"
+    },
+    {
+      "id": "13",
+      "title": "Ribbed Skirt",
+      "icon": "/images/womenImages/ribbed-skirt-main.jpeg",
+      "icon2": "/images/womenImages/ribbed-skirt-main2.jpeg",
+      "iconAlt": "/images/womenImages/ribbed-skirt-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/images/womenImages/ribbed-skirt-main.jpeg",
+          "image2": "/images/womenImages/ribbed-skirt-main2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "32.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "skirt"
+    },
+    {
+      "id": "14",
+      "title": "Printed Tee",
+      "icon": "/images/womenImages/printed-tee-main.jpeg",
+      "icon2": "/images/womenImages/printed-tee-main2.jpeg",
+      "iconAlt": "/images/womenImages/printed-tee-alt.jpeg",
+      "colors": [
+        {
+          "name": "Pale Yellow",
+          "image": "/images/womenImages/printed-tee-main.jpeg",
+          "image2": "/images/womenImages/printed-tee-main2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "22.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "yes",
+      "style": "top"
+    },
+    {
+      "id": "15",
+      "title": "Printed Sweater",
+      "icon": "/images/womenImages/printed-sweater-main.jpeg",
+      "icon2": "/images/womenImages/printed-sweater-main2.jpeg",
+      "iconAlt": "/images/womenImages/printed-sweater-alt.jpeg",
+      "colors": [
+        {
+          "name": "Pale Yellow",
+          "image": "/images/womenImages/printed-sweater-main.jpeg",
+          "image2": "/images/womenImages/printed-sweater-main2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "28.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "yes",
+      "style": "sweater"
+    },
+    {
+      "id": "16",
+      "title": "Oversized T-shirt",
+      "icon": "/images/womenImages/oversized-t-main.jpeg",
+      "icon2": "/images/womenImages/oversized-t-main2.jpeg",
+      "iconAlt": "/images/womenImages/oversized-t-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/images/womenImages/oversized-t-main.jpeg",
+          "image2": "/images/womenImages/oversized-t-main2.jpeg"
+        },
+        {
+          "name": "Purple",
+          "image": "/images/womenImages/oversized-t-purple.jpeg",
+          "image2": "/images/womenImages/oversized-t-purple2.jpeg"
+        },
+        {
+          "name": "Biege",
+          "image": "/images/womenImages/oversized-t-biege.jpeg",
+          "image2": "/images/womenImages/oversized-t-biege2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "24.29",
+      "sale": "yes",
+      "sale-price": "20.00",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "top"
+    },
+    {
+      "id": "17",
+      "title": "Linen Jersey Top",
+      "icon": "/images/womenImages/linen-jersey-top-main.jpeg",
+      "icon2": "/images/womenImages/linen-jersey-top-main2.jpeg",
+      "iconAlt": "/images/womenImages/linen-jersey-top-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black Stripes",
+          "image": "/images/womenImages/linen-jersey-top-main.jpeg",
+          "image2": "/images/womenImages/linen-jersey-top-main2.jpeg"
+        },
+        {
+          "name": "Blue Stripes",
+          "image": "/images/womenImages/linen-jersey-top-blue.jpeg",
+          "image2": "/images/womenImages/linen-jersey-top-blue2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "23.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "top"
+    },
+    {
+      "id": "17",
+      "title": "Laced Skirt",
+      "icon": "/images/womenImages/laced-skirt-main.jpeg",
+      "icon2": "/images/womenImages/laced-skirt-main2.jpeg",
+      "iconAlt": "/images/womenImages/laced-skirt-alt.jpeg",
+      "colors": [
+        {
+          "name": "Biege",
+          "image": "/images/womenImages/laced-skirt-main.jpeg",
+          "image2": "/images/womenImages/laced-skirt-main2.jpeg"
+        },
+        {
+          "name": "Black",
+          "image": "/images/womenImages/laced-skirt-black.jpeg",
+          "image2": "/images/womenImages/laced-skirt-black2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "28.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "skirt"
+    },
+    {
+      "id": "18",
+      "title": "Jersey Dress",
+      "icon": "/images/womenImages/jersey-dress-main.jpeg",
+      "icon2": "/images/womenImages/jersey-dress-main2.jpeg",
+      "iconAlt": "/images/womenImages/jersey-dress-alt.jpeg",
+      "colors": [
+        {
+          "name": "Floral",
+          "image": "/images/womenImages/jersey-dress-main.jpeg",
+          "image2": "/images/womenImages/jersey-dress-main2.jpeg"
+        },
+        {
+          "name": "Black",
+          "image": "/images/womenImages/jersey-dress-black.jpeg",
+          "image2": "/images/womenImages/jersey-dress-black2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "31.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "dress"
+    },
+    {
+      "id": "19",
+      "title": "Hoodie",
+      "icon": "/images/womenImages/hoodie-main.jpeg",
+      "icon2": "/images/womenImages/hoodie-main2.jpeg",
+      "iconAlt": "/images/womenImages/hoodie-alt.jpeg",
+      "colors": [
+        {
+          "name": "Biege",
+          "image": "/images/womenImages/hoodie-main.jpeg",
+          "image2": "/images/womenImages/hoodie-main2.jpeg"
+        },
+        {
+          "name": "Black",
+          "image": "/images/womenImages/hoodie-black.jpeg",
+          "image2": "/images/womenImages/hoodie-black2.jpeg"
+        },
+        {
+          "name": "Mint",
+          "image": "/images/womenImages/hoodie-mint.jpeg",
+          "image2": "/images/womenImages/hoodie-mint2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "36.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "sweater"
+    },
+    {
+      "id": "20",
+      "title": "Hooded Jacket",
+      "icon": "/images/womenImages/hooded-jacket-main.jpeg",
+      "icon2": "/images/womenImages/hooded-jacket-main2.jpeg",
+      "iconAlt": "/images/womenImages/hooded-jacket-alt.jpeg",
+      "colors": [
+        {
+          "name": "Biege",
+          "image": "/images/womenImages/hooded-jacket-main.jpeg",
+          "image2": "/images/womenImages/hooded-jacket-main2.jpeg"
+        },
+        {
+          "name": "Rose",
+          "image": "/images/womenImages/hooded-jacket-rose.jpeg",
+          "image2": "/images/womenImages/hooded-jacket-rose2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "33.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "sweater"
+    },
+    {
+      "id": "21",
+      "title": "Crop Top",
+      "icon": "/images/womenImages/crop-top-main.jpeg",
+      "icon2": "/images/womenImages/crop-top-main2.jpeg",
+      "iconAlt": "/images/womenImages/crop-top-alt.jpeg",
+      "colors": [
+        {
+          "name": "Biege",
+          "image": "/images/womenImages/crop-top-main.jpeg",
+          "image2": "/images/womenImages/crop-top-main2.jpeg"
+        },
+        {
+          "name": "White",
+          "image": "/images/womenImages/crop-top-white.jpeg",
+          "image2": "/images/womenImages/crop-top-white2.jpeg"
+        },
+        {
+          "name": "Yellow",
+          "image": "/images/womenImages/crop-top-yellow.jpeg",
+          "image2": "/images/womenImages/crop-top-yellow2.jpeg"
+        },
+        {
+          "name": "Green",
+          "image": "/images/womenImages/crop-top-green.jpeg",
+          "image2": "/images/womenImages/crop-top-green2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "29.29",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "yes",
+      "style": "top"
+    },
+    {
+      "id": "22",
+      "title": "Bodycon Dress",
+      "icon": "/images/womenImages/bodycon-dress-main.jpeg",
+      "icon2": "/images/womenImages/bodycon-dress-main2.jpeg",
+      "iconAlt": "/images/womenImages/bodycon-dress-alt.jpeg",
+      "colors": [
+        {
+          "name": "Purple",
+          "image": "/images/womenImages/bodycon-dress-main.jpeg",
+          "image2": "/images/womenImages/bodycon-dress-main2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "42.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "yes",
+      "style": "dress"
+    },
+    {
+      "id": "22",
+      "title": "Bodycon Collard Dress",
+      "icon": "/images/womenImages/bodycon-collar-dress-main.jpeg",
+      "icon2": "/images/womenImages/bodycon-collar-dress-main2.jpeg",
+      "iconAlt": "/images/womenImages/bodycon-collar-dress-alt.jpeg",
+      "colors": [
+        {
+          "name": "Off-White",
+          "image": "/images/womenImages/bodycon-collar-dress-main.jpeg",
+          "image2": "/images/womenImages/bodycon-collar-dress-main2.jpeg"
+        },
+        {
+          "name": "Black",
+          "image": "/images/womenImages/bodycon-collar-dress-black.jpeg",
+          "image2": "/images/womenImages/bodycon-collar-dress-black2.jpeg"
+        },
+        {
+          "name": "Pink",
+          "image": "/images/womenImages/bodycon-collar-dress-pink.jpeg",
+          "image2": "/images/womenImages/bodycon-collar-dress-pink2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "46.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "dress"
+    },
+    {
+      "id": "23",
+      "title": "90s Jeans",
+      "icon": "/images/womenImages/90-jeans-main.jpeg",
+      "icon2": "/images/womenImages/90-jeans-main2.jpeg",
+      "iconAlt": "/images/womenImages/90-jeans-alt.jpeg",
+      "colors": [
+        {
+          "name": "Light",
+          "image": "/images/womenImages/90-jeans-main.jpeg",
+          "image2": "/images/womenImages/90-jeans-main2.jpeg"
+        },
+        {
+          "name": "Dark",
+          "image": "/images/womenImages/90-jeans-dark.jpeg",
+          "image2": "/images/womenImages/90-jeans-dark2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "34.99",
+      "sale": "no",
+      "sizes": ["S", "M", "L", "XL"],
+      "new": "no",
+      "style": "pants"
     }
   ]
 }

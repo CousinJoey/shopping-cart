@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Icon from "@mdi/react";
 import { mdiAccount, mdiCart } from "@mdi/js";
 import { Link } from "react-router-dom";
+import { getCartData } from "./childComponents/cartData";
 
 class Navbar extends Component {
   constructor(props) {
@@ -21,6 +22,8 @@ class Navbar extends Component {
   };
 
   render() {
+    const cartArray = getCartData();
+
     return (
       <div id="navbar">
         <div id="navbar-container">
@@ -63,7 +66,10 @@ class Navbar extends Component {
           </div>
           <div id="svg-container">
             <Icon path={mdiAccount} size={1} />
-            <Icon path={mdiCart} size={1} />
+            <Link to="/cart">
+              <Icon path={mdiCart} size={1} />
+            </Link>
+            {cartArray.length > 0 && <div>{cartArray.length}</div>}
           </div>
         </div>
       </div>

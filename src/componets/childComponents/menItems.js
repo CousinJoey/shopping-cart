@@ -10,13 +10,6 @@ function MenItems(props) {
     const state = { article };
 
     navigate(`/product/${props.item.id}`, { state });
-
-    // navigate(`/product/${props.item.id}`{}),
-    //   {
-    //     state: {
-    //       title: props.item.title,
-    //     },
-    //   };
   };
 
   return (
