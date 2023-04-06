@@ -589,7 +589,7 @@
       "price": "42.99",
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
-      "new": "yes",
+      "new": "no",
       "style": "dress"
     },
     {

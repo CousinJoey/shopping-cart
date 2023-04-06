@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
+import Icon from "@mdi/react";
+import { mdiNewBox } from "@mdi/js";
 
 function WomenItems(props) {
   let navigate = useNavigate();
@@ -27,6 +29,17 @@ function WomenItems(props) {
             <p className="overlay-text">Sale</p>
           </div>
         </div>
+      ) : props.item.new === "yes" ? (
+        <div className="article-img-container-new">
+          <img
+            className="article-img-new"
+            src={props.item.icon}
+            alt={props.item.title}
+            style={{ width: "300px", height: "450px" }}
+            onClick={handleClick}
+          />
+          <Icon path={mdiNewBox} size={2} className="new-overlay" />
+        </div>
       ) : (
         <div>
           <img
@@ -41,8 +54,8 @@ function WomenItems(props) {
         {props.item.sale === "yes" ? (
           <div id="clothing-grid-price-and-title">
             <p>{props.item.title}</p>
+            <p className="new-price">{props.item.salePrice}</p>
             <p className="sale-price">{props.item.price}</p>
-            <p>{props.item.salePrice}</p>
           </div>
         ) : (
           <div id="clothing-grid-price-and-title">

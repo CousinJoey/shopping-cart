@@ -98,6 +98,10 @@ a {
   text-decoration: line-through;
 }
 
+.new-price {
+  color: red;
+}
+
 .article-img-container {
   position: relative;
   width: 300px;
@@ -133,7 +137,76 @@ a {
   font-weight: bold;
 }
 
+.article-img-container-new {
+  position: relative;
+  width: 300px;
+  height: 450px;
+}
+
+.article-img-new {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.new-overlay {
+  position: absolute;
+  top: 90%;
+  right: 0;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gold;
+}
+
 /* Product View */
+
+/* Sales Page */
+
+#sale-page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-container-sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clothing-items-grid-sale {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+/* Sales Page */
+
+/* Collections Page */
+
+#collections-page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-container-collections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clothing-items-grid-collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+/* Collections Page */
 
 /* Product Page */
 

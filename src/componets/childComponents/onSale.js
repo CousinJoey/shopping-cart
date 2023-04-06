@@ -1,10 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
-import Icon from "@mdi/react";
-import { mdiNewBox } from "@mdi/js";
 
-function MenItems(props) {
+function OnSale(props) {
   let navigate = useNavigate();
 
   const handleClick = () => {
@@ -15,7 +13,7 @@ function MenItems(props) {
   };
 
   return (
-    <div id="mens-clothing-grid">
+    <div id="collections-clothing-grid">
       {props.item.sale === "yes" ? (
         <div className="article-img-container">
           <img
@@ -30,15 +28,17 @@ function MenItems(props) {
           </div>
         </div>
       ) : props.item.new === "yes" ? (
-        <div className="article-img-container-new">
+        <div className="article-img-container">
           <img
-            className="article-img-new"
+            className="article-img"
             src={props.item.icon}
             alt={props.item.title}
             style={{ width: "300px", height: "450px" }}
             onClick={handleClick}
           />
-          <Icon path={mdiNewBox} size={2} className="new-overlay" />
+          <div className="new-overlay">
+            <p className="overlay-text">New</p>
+          </div>
         </div>
       ) : (
         <div>
@@ -68,8 +68,8 @@ function MenItems(props) {
   );
 }
 
-MenItems.propTypes = {
+OnSale.propTypes = {
   item: PropTypes.object.isRequired,
 };
 
-export default MenItems;
+export default OnSale;

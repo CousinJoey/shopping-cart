@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Icon from "@mdi/react";
 import { mdiNewBox } from "@mdi/js";
 
-function MenItems(props) {
+function NewCollections(props) {
   let navigate = useNavigate();
 
   const handleClick = () => {
@@ -15,7 +15,7 @@ function MenItems(props) {
   };
 
   return (
-    <div id="mens-clothing-grid">
+    <div id="collections-clothing-grid">
       {props.item.sale === "yes" ? (
         <div className="article-img-container">
           <img
@@ -54,8 +54,8 @@ function MenItems(props) {
         {props.item.sale === "yes" ? (
           <div id="clothing-grid-price-and-title">
             <p>{props.item.title}</p>
-            <p className="new-price">{props.item.salePrice}</p>
             <p className="sale-price">{props.item.price}</p>
+            <p>{props.item.salePrice}</p>
           </div>
         ) : (
           <div id="clothing-grid-price-and-title">
@@ -68,8 +68,8 @@ function MenItems(props) {
   );
 }
 
-MenItems.propTypes = {
+NewCollections.propTypes = {
   item: PropTypes.object.isRequired,
 };
 
-export default MenItems;
+export default NewCollections;

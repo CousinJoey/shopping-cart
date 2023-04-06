@@ -32,10 +32,18 @@ function Cart() {
                         ></img>
                       </div>
                       <div className="checkout-item-descriptions">
-                        <div className="name-and-price">
-                          <p>{item.name}</p>
-                          <p>{item.price}</p>
-                        </div>
+                        {item.sale === "yes" ? (
+                          <div className="name-and-price">
+                            <p>{item.name}</p>
+                            <p className="new-price">{item.salePrice}</p>
+                            <p className="sale-price">{item.price}</p>
+                          </div>
+                        ) : (
+                          <div className="name-and-price">
+                            <p>{item.name}</p>
+                            <p>{item.price}</p>
+                          </div>
+                        )}
                         <div className="color-and-size">
                           <p>Color: {item.color}</p>
                           <p>Size: {item.size}</p>
