@@ -12,11 +12,11 @@ class SidebarWomens extends Component {
       <div id="sidebar-container">
         <div id="sidebar">
           <p onClick={() => onCategoryClick("View All")}>View All</p>
-          <p onClick={() => onCategoryClick("top")}>Tops</p>
-          <p onClick={() => onCategoryClick("sweater")}>Hoodies & Sweaters</p>
-          <p onClick={() => onCategoryClick("pants")}>Pants</p>
-          <p onClick={() => onCategoryClick("skirt")}>Skirts</p>
-          <p onClick={() => onCategoryClick("dress")}>Dresses</p>
+          <p onClick={() => onCategoryClick("Tops")}>Tops</p>
+          <p onClick={() => onCategoryClick("Sweaters")}>Hoodies & Sweaters</p>
+          <p onClick={() => onCategoryClick("Pants")}>Pants</p>
+          <p onClick={() => onCategoryClick("Skirts")}>Skirts</p>
+          <p onClick={() => onCategoryClick("Dresses")}>Dresses</p>
         </div>
       </div>
     );

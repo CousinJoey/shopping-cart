@@ -28,7 +28,9 @@ class Navbar extends Component {
       <div id="navbar">
         <div id="navbar-container">
           <h1 id="title">
-            <Link to="/">Bella</Link>
+            <Link to="/">
+              BEL<span className="red">LA</span>
+            </Link>
           </h1>
           <div id="nav-button-container">
             <button>

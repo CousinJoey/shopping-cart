@@ -69,8 +69,8 @@ function Cart() {
         <div id="checkout-sidebar">
           <p>This is the checkout sidebar</p>
           <button>Checkout</button>
-          <p>{totalPrice}</p>
-          <p>Total Savings: {savings} </p>
+          {totalPrice > 0 && <p>{totalPrice}</p>}
+          {savings > 0 && <p>Total Savings: {savings} </p>}
         </div>
       </div>
     </div>
