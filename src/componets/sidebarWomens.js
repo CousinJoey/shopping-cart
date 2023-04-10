@@ -1,26 +1,45 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-class SidebarWomens extends Component {
-  constructor(props) {
-    super(props);
-  }
+function SidebarWomens({ onCategoryClick }) {
+  const [selectedCategory, setSelectedCategory] = useState(null);
 
-  render() {
-    const { onCategoryClick } = this.props;
-    return (
-      <div id="sidebar-container">
-        <div id="sidebar">
-          <p onClick={() => onCategoryClick("View All")}>View All</p>
-          <p onClick={() => onCategoryClick("Tops")}>Tops</p>
-          <p onClick={() => onCategoryClick("Sweaters")}>Hoodies & Sweaters</p>
-          <p onClick={() => onCategoryClick("Pants")}>Pants</p>
-          <p onClick={() => onCategoryClick("Skirts")}>Skirts</p>
-          <p onClick={() => onCategoryClick("Dresses")}>Dresses</p>
-        </div>
+  const handleCategoryClick = (category) => {
+    onCategoryClick(category);
+  };
+
+  const changeUnderline = (name) => {
+    setSelectedCategory(name);
+  };
+
+  const categories = [
+    { name: "View All", key: "View All" },
+    { name: "Tops", key: "Tops" },
+    { name: "Hoodies & Sweaters", key: "Sweaters" },
+    { name: "Pants", key: "Pants" },
+    { name: "Dresses", key: "Dresses" },
+  ];
+
+  return (
+    <div id="sidebar-container">
+      <div id="sidebar">
+        {categories.map((category) => (
+          <p
+            key={category.key}
+            className={
+              selectedCategory === category.name ? "underline" : "no-underline"
+            }
+            onClick={() => {
+              handleCategoryClick(category.key);
+              changeUnderline(category.name);
+            }}
+          >
+            {category.name}
+          </p>
+        ))}
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 SidebarWomens.propTypes = {
