@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Icon from "@mdi/react";
-import { mdiAccount, mdiCart } from "@mdi/js";
-import { Link } from "react-router-dom";
+import { mdiAccount, mdiPurse } from "@mdi/js";
+import { NavLink } from "react-router-dom";
 import { getCartData } from "./childComponents/cartData";
 
 class Navbar extends Component {
@@ -28,49 +28,74 @@ class Navbar extends Component {
       <div id="navbar">
         <div id="navbar-container">
           <h1 id="title">
-            <Link to="/">
+            <NavLink to="/">
               BEL<span className="red">LA</span>
-            </Link>
+            </NavLink>
           </h1>
           <div id="nav-button-container">
-            <button>
-              <Link to="/">Home</Link>
+            <button className="navbar-button">
+              <NavLink to="/" className="nav-link">
+                Home
+              </NavLink>
             </button>
             <div id="dropdown-container">
-              <button onClick={this.handleDropDown}>Shop</button>
+              <button
+                onClick={this.handleDropDown}
+                className="navbar-button nav-link"
+              >
+                Shop
+              </button>
               {this.state.isDropDownVisible && (
                 <div
                   id="dropdown"
                   className="dropdown-items"
                   onMouseLeave={this.handleDropDownExit}
                 >
-                  <p className="dropdown-clickables">
-                    <Link to="/mens">Mens</Link>
+                  <p className="dropdown-clickables nav-link">
+                    <NavLink to="/mens">Mens</NavLink>
                   </p>
-                  <p className="dropdown-clickables">
-                    <Link to="/womens">Womens</Link>
+                  <p className="dropdown-clickables nav-link">
+                    <NavLink to="/womens">Womens</NavLink>
                   </p>
-                  <p className="dropdown-clickables">
-                    <Link to="/accesories">Accesories</Link>
+                  <p className="dropdown-clickables nav-link">
+                    <NavLink to="/accesories">Accesories</NavLink>
                   </p>
                 </div>
               )}
             </div>
-            <button>
-              <Link to="/about">About</Link>
+            <button className="navbar-button">
+              <NavLink
+                to="/about"
+                activeClassName="nav-link-active"
+                className="nav-link"
+              >
+                About
+              </NavLink>
             </button>
-            <button>
-              <Link to="/sales">On Sale</Link>
+            <button className="navbar-button">
+              <NavLink
+                to="/sales"
+                activeClassName="nav-link-active"
+                className="nav-link"
+              >
+                On Sale
+              </NavLink>
             </button>
-            <button>
-              <Link to="/collections">New Collections</Link>
+            <button className="navbar-button">
+              <NavLink
+                to="/collections"
+                activeClassName="nav-link-active"
+                className="nav-link"
+              >
+                New Collections
+              </NavLink>
             </button>
           </div>
           <div id="svg-container">
             <Icon path={mdiAccount} size={1} />
-            <Link to="/cart">
-              <Icon path={mdiCart} size={1} />
-            </Link>
+            <NavLink to="/cart">
+              <Icon path={mdiPurse} size={1} />
+            </NavLink>
             {cartArray.length > 0 && (
               <div id="cart-icon">{cartArray.length}</div>
             )}

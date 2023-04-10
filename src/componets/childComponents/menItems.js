@@ -74,8 +74,10 @@ function MenItems(props) {
         {props.item.sale === "yes" ? (
           <div id="clothing-grid-price-and-title">
             <p>{props.item.title}</p>
-            <p className="new-price">{props.item.salePrice}</p>
-            <p className="sale-price">{props.item.price}</p>
+            <p className="product-pricing">
+              <span className="new-price">{props.item.salePrice}</span>{" "}
+              <span className="sale-price">{props.item.price}</span>
+            </p>
           </div>
         ) : (
           <div id="clothing-grid-price-and-title">

@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 import Icon from "@mdi/react";
 import { mdiNewBox } from "@mdi/js";
 
 function NewCollections(props) {
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+  };
+
+  const displayedImg = isHovering ? props.item.iconAlt : props.item.icon;
+
   let navigate = useNavigate();
 
   const handleClick = () => {
@@ -17,10 +29,14 @@ function NewCollections(props) {
   return (
     <div id="collections-clothing-grid">
       {props.item.sale === "yes" ? (
-        <div className="article-img-container">
+        <div
+          className="article-img-container"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <img
             className="article-img"
-            src={props.item.icon}
+            src={displayedImg}
             alt={props.item.title}
             style={{ width: "300px", height: "450px" }}
             onClick={handleClick}
@@ -30,10 +46,14 @@ function NewCollections(props) {
           </div>
         </div>
       ) : props.item.new === "yes" ? (
-        <div className="article-img-container-new">
+        <div
+          className="article-img-container-new"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <img
             className="article-img-new"
-            src={props.item.icon}
+            src={displayedImg}
             alt={props.item.title}
             style={{ width: "300px", height: "450px" }}
             onClick={handleClick}
@@ -41,9 +61,9 @@ function NewCollections(props) {
           <Icon path={mdiNewBox} size={2} className="new-overlay" />
         </div>
       ) : (
-        <div>
+        <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img
-            src={props.item.icon}
+            src={displayedImg}
             alt={props.item.title}
             style={{ width: "300px", height: "450px" }}
             onClick={handleClick}
@@ -54,8 +74,10 @@ function NewCollections(props) {
         {props.item.sale === "yes" ? (
           <div id="clothing-grid-price-and-title">
             <p>{props.item.title}</p>
-            <p className="sale-price">{props.item.price}</p>
-            <p>{props.item.salePrice}</p>
+            <p className="product-pricing">
+              <span className="new-price">{props.item.salePrice}</span>{" "}
+              <span className="sale-price">{props.item.price}</span>
+            </p>
           </div>
         ) : (
           <div id="clothing-grid-price-and-title">
