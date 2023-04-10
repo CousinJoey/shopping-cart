@@ -31,6 +31,7 @@ function ProductPage() {
         color: colorName,
         price: location.state.article.price,
         sale: location.state.article.sale,
+        quantity: "1",
       };
 
       if (location.state.article.sale === "yes") {
