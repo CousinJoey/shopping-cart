@@ -860,5 +860,163 @@
       "style": "Pants",
       "description": ["90s", "90s", "Jeans", "jeans", "pants", "Pants"]
     }
+  ],
+  "accessories": [
+    {
+      "id": "24",
+      "title": "Polarized Sunglasses",
+      "icon": "/images/accesoriesImages/sunglasses-main.jpeg",
+      "icon2": "/images/accesoriesImages/sunglasses-main2.jpeg",
+      "iconAlt": "/images/accesoriesImages/sunglasses-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/images/accesoriesImages/sunglasses-main.jpeg",
+          "image2": "/images/accesoriesImages/sunglasses-main2.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "64.99",
+      "sale": "no",
+      "sizes": ["One size fits all"],
+      "new": "yes",
+      "style": "Sunglasses",
+      "description": ["Sunglasses", "sunglasses", "glasses", "Glasses"]
+    },
+    {
+      "id": "25",
+      "title": "Baseball Cap",
+      "icon": "/images/accesoriesImages/hat-main.jpeg",
+      "icon2": "/images/accesoriesImages/hat-main2.jpeg",
+      "iconAlt": "/images/accesoriesImages/hat-alt.jpeg",
+      "colors": [
+        {
+          "name": "Biege",
+          "image": "/images/accesoriesImages/hat-main.jpeg",
+          "image2": "/images/accesoriesImages/hat-main2.jpeg"
+        },
+        {
+          "name": "Pistachio",
+          "image": "/images/accesoriesImages/hat-pistachio.jpeg",
+          "image2": "/images/accesoriesImages/hat-pistachio2.jpeg"
+        },
+        {
+          "name": "Yellow",
+          "image": "/images/accesoriesImages/hat-yellow.jpeg",
+          "image2": "/images/accesoriesImages/hat-yellow2.jpeg"
+        },
+        {
+          "name": "Black",
+          "image": "/images/accesoriesImages/hat-black.jpeg",
+          "image2": "/images/accesoriesImages/hat-black2.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "24.99",
+      "sale": "no",
+      "sizes": ["One size fits all"],
+      "new": "no",
+      "style": "Hats",
+      "description": [
+        "hat",
+        "Hat",
+        "Hats",
+        "hats",
+        "baseball cap",
+        "Baseball Cap",
+        "baseball caps",
+        "Baseball Caps",
+        "baseball Cap",
+        "Baseball caps",
+        "baseball Caps",
+        "Baseball caps"
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Beanie",
+      "icon": "/images/accesoriesImages/beanie-main.jpeg",
+      "icon2": "/images/accesoriesImages/beanie-main2.jpeg",
+      "iconAlt": "/images/accesoriesImages/beanie-alt.jpeg",
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/images/accesoriesImages/beanie-main.jpeg",
+          "image2": "/images/accesoriesImages/beanie-main2.jpeg"
+        },
+        {
+          "name": "Pink",
+          "image": "/images/accesoriesImages/beanie-pink.jpeg",
+          "image2": "/images/accesoriesImages/beanie-pink2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "14.99",
+      "sale": "no",
+      "sizes": ["One size fits all"],
+      "new": "no",
+      "style": "Hats",
+      "description": [
+        "hat",
+        "Hat",
+        "hats",
+        "Hats",
+        "Beanie",
+        "beanie",
+        "beanies",
+        "Beanies",
+        "skully",
+        "Skullys",
+        "Skullies",
+        "skullies"
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Pack of 9 Rings",
+      "icon": "/images/accesoriesImages/9-rings-main.jpeg",
+      "icon2": "/images/accesoriesImages/9-rings-main2.jpeg",
+      "iconAlt": "/images/accesoriesImages/9-rings-alt.jpeg",
+      "colors": [
+        {
+          "name": "Gold",
+          "image": "/images/accesoriesImages/9-rings-main.jpeg",
+          "image2": "/images/accesoriesImages/9-rings-main2.jpeg"
+        },
+        {
+          "name": "Silver",
+          "image": "/images/accesoriesImages/9-rings-silver.jpeg",
+          "image2": "/images/accesoriesImages/9-rings-silver2.jpeg"
+        }
+      ],
+      "gender": "women",
+      "price": "44.99",
+      "sale": "no",
+      "sizes": ["4", "6", "8", "10", "12"],
+      "new": "no",
+      "style": "Rings",
+      "description": ["rings", "Rings", "ring", "Ring", "Jewelry", "jewelry"]
+    },
+    {
+      "id": "28",
+      "title": "Pack of 5 Rings",
+      "icon": "/images/accesoriesImages/5-rings-main.jpeg",
+      "icon2": "/images/accesoriesImages/5-rings-main2.jpeg",
+      "iconAlt": "/images/accesoriesImages/5-rings-alt.jpeg",
+      "colors": [
+        {
+          "name": "Silver",
+          "image": "/images/accesoriesImages/5-rings-main.jpeg",
+          "image2": "/images/accesoriesImages/5-rings-main2.jpeg"
+        }
+      ],
+      "gender": "men",
+      "price": "34.99",
+      "sale": "no",
+      "sizes": ["4", "6", "8", "10", "12"],
+      "new": "no",
+      "style": "Rings",
+      "description": ["rings", "Rings", "ring", "Ring", "Jewelry", "jewelry"]
+    }
   ]
 }

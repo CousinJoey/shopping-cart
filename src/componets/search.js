@@ -7,6 +7,8 @@ import { useLocation } from "react-router-dom";
 
 function Search() {
   const [selectedFilter, setSelectedFilter] = useState("all");
+  const [womenItems, setWomenItems] = useState([]);
+  const [menItems, setMenItems] = useState([]);
   const [item, setItems] = useState([]);
 
   const location = useLocation();
@@ -19,23 +21,48 @@ function Search() {
 
   useEffect(() => {
     if (selectedFilter === "men") {
-      const menItems = data.men.filter((item) =>
+      const menItems = data.men;
+      const menAccesories = data.accessories.filter(
+        (item) => item.gender === "men"
+      );
+      const allMenItems = menAccesories.concat(menItems);
+      const filteredMenItems = allMenItems.filter((item) =>
         item.description.some((desc) => desc === searchTerm)
       );
-      setItems(menItems);
+      setItems(filteredMenItems);
+      setMenItems(filteredMenItems);
     } else if (selectedFilter === "women") {
-      const womenItems = data.women.filter((item) =>
+      const womenItems = data.women;
+      const womenAccesories = data.accessories.filter(
+        (item) => item.gender === "women"
+      );
+      const allWomenItems = womenAccesories.concat(womenItems);
+      const filteredWomenItems = allWomenItems.filter((item) =>
         item.description.some((desc) => desc === searchTerm)
       );
-      setItems(womenItems);
+      setItems(filteredWomenItems);
+      setWomenItems(filteredWomenItems);
     } else {
-      const menItems = data.men.filter((item) =>
-        item.description.some((desc) => desc == searchTerm)
+      const menItems = data.men;
+      const menAccesories = data.accessories.filter(
+        (item) => item.gender === "men"
       );
-      const womenItems = data.women.filter((item) =>
+      const allMenItems = menAccesories.concat(menItems);
+      const filteredMenItems = allMenItems.filter((item) =>
         item.description.some((desc) => desc === searchTerm)
       );
-      const allItems = womenItems.concat(menItems);
+      setMenItems(filteredMenItems);
+      const womenItems = data.women;
+      const womenAccesories = data.accessories.filter(
+        (item) => item.gender === "women"
+      );
+      const allWomenItems = womenAccesories.concat(womenItems);
+      const filteredWomenItems = allWomenItems.filter((item) =>
+        item.description.some((desc) => desc === searchTerm)
+      );
+      setWomenItems(filteredWomenItems);
+      const allItems = filteredMenItems.concat(filteredWomenItems);
+
       const finalItems = allItems.filter(
         (item) => item.gender === "women" || item.gender === "men"
       );
@@ -52,9 +79,13 @@ function Search() {
     <div>
       <Navbar />
       <div className="products-view">
-        {item.length > 0 ? (
+        {menItems.length > 0 || womenItems.length > 0 ? (
           <div className="products-container">
-            <SidebarSearch onCategoryClick={handleCategoryClick} />
+            <SidebarSearch
+              onCategoryClick={handleCategoryClick}
+              menLength={menItems.length}
+              womenLength={womenItems.length}
+            />
             <div id="clothing-items-grid">
               {item.map((item) => (
                 <SearchItems key={item.title} title={item.title} item={item} />

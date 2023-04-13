@@ -904,6 +904,37 @@ form {
 
 /* About Page */
 
+/* Accesories Page */
+
+#main-accesories-page {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 2em;
+}
+
+#clothing-items-grid-sale {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+#men-accesories-filter {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-left: 10px;
+  gap: 1em;
+}
+
+#women-accesories-filter {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-left: 10px;
+  gap: 1em;
+}
+
+/* Accesories Page */
 .yellow {
   color: yellow;
 }
