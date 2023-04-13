@@ -39,3 +39,13 @@ export const cartSavings = () => {
   const roundedSavings = Math.round(totalSavings * 100) / 100;
   return roundedSavings.toFixed(2);
 };
+
+export const cartWithoutSavings = () => {
+  const cartData = getCartData();
+  const costWithoutSavings = cartData.reduce((acc, item) => {
+    return acc + parseFloat(item.price * item.quantity);
+  }, 0);
+  const roundedCostWithoutSavings = Math.round(costWithoutSavings * 100) / 100;
+  console.log(roundedCostWithoutSavings);
+  return roundedCostWithoutSavings.toFixed(2);
+};

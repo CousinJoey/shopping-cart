@@ -24,10 +24,11 @@ function HomePage() {
               </Link>
               <div id="promo-code-container">
                 <p className="promo-code">
-                  Get Up to <span className="red">15%</span> Off When Using{" "}
-                  <span className="red">Bella15</span> Code
+                  Get Up to <span className="red">15%</span> Off When Using Code
                 </p>
-                <p className="promo-code">Bella15 at Checkout!</p>
+                <p className="promo-code">
+                  <span className="red">Bella15</span> at Checkout!
+                </p>
               </div>
             </div>
           </div>

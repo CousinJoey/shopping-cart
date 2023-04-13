@@ -4,7 +4,7 @@ import SidebarWomens from "./sidebarWomens";
 import Navbar from "./navbar";
 import data from "../clothingData.json";
 
-function Mens() {
+function Womens() {
   const [items, setItems] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState("View All");
 
@@ -39,4 +39,4 @@ function Mens() {
   );
 }
 
-export default Mens;
+export default Womens;

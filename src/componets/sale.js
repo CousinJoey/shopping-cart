@@ -9,6 +9,8 @@ function Sale() {
   const [items, setItems] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState("View All");
 
+  console.log(items);
+
   useEffect(() => {
     if (gender === "men") {
       const menItems = data.men.filter((item) => item.sale === "yes");

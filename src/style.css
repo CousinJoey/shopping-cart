@@ -120,6 +120,22 @@ body {
   width: 100%;
 }
 
+.homepage-button {
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.homepage-button:hover {
+  background-color: #a9a9a9;
+}
+
+.homepage-button:active {
+  background-color: #989898;
+}
+
 #filler-text-container {
   text-align: center;
   margin: 0;
@@ -137,22 +153,6 @@ body {
 
 .promo-code {
   margin: 0;
-}
-
-.homepage-button {
-  border: none;
-  padding: 0.5em 1em;
-  border-radius: 12px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.homepage-button:hover {
-  background-color: #a9a9a9;
-}
-
-.homepage-button:active {
-  background-color: #989898;
 }
 
 /* Homepage */
@@ -177,6 +177,37 @@ body {
 #title {
   font-size: 3vw;
   font-weight: 500;
+}
+
+#search-bar-container {
+  width: 150px;
+}
+
+.search-bar {
+  background-color: transparent;
+  flex-grow: 1;
+  border-radius: 12px;
+  padding: 2px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.1vw;
+  width: 150px;
+}
+
+.search-bar:focus {
+  border-bottom: 2px solid red;
+  outline: none;
+}
+
+.search-bar:placeholder-shown {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
 }
 
 #svg-container {
@@ -204,6 +235,7 @@ body {
 .navbar-button {
   border: none;
   background-color: white;
+  font-size: 1.2vw;
 }
 
 .nav-link:hover {
@@ -549,8 +581,7 @@ body {
 }
 
 .underline {
-  border-bottom: 1px solid black;
-  width: 4em;
+  text-decoration: underline;
 }
 
 .no-underline {
@@ -655,33 +686,149 @@ body {
 #checkout-page {
   display: flex;
   justify-content: space-around;
+  padding: 2em;
 }
 
 .checkout-item {
   display: flex;
   align-items: flex-start;
-  gap: 4em;
+  gap: 2em;
 }
 
 .checkout-item-descriptions {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  width: 300px;
 }
 
 .name-and-price {
   display: flex;
-  gap: 2em;
+  flex-direction: column;
+  font-size: 1.2vw;
 }
 
 .color-and-size {
   display: flex;
   gap: 2em;
+  font-size: 1.2vw;
 }
 
 .quantity-and-remove {
   display: flex;
   gap: 2em;
+}
+
+.checkout-sale-price {
+  display: flex;
+  gap: 1em;
+}
+
+.checkout-remove {
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.checkout-remove:active {
+  background-color: #a9a9a9;
+}
+
+.checkout-quantity {
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#checkout-sidebar {
+  width: 200px;
+}
+
+#checkout-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4vw;
+}
+
+.checkout-details-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.checkout-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+#final-price-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#checkout-and-promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#checkout-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#checkout-button {
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+#promo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#promo {
+  padding: 4px 8px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#filler-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.credit-card {
+  width: 40px;
+  height: 40px;
+}
+
+#filler-klarna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6em;
+  font-size: 1.6vw;
 }
 
 /* Checkout Page */
@@ -759,4 +906,18 @@ body {
 
 .yellow {
   color: yellow;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-results-text {
+  font-size: 2vw;
 }

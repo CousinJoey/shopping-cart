@@ -24,7 +24,8 @@
       "salePrice": "17.29",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Shirts"
+      "style": "Shirts",
+      "description": ["shirt", "Shirt", "Polo", "polo", "shirts", "Shirts"]
     },
     {
       "id": "2",
@@ -49,7 +50,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Sweaters"
+      "style": "Sweaters",
+      "description": [
+        "sweater",
+        "Sweater",
+        "Crewneck",
+        "crewneck",
+        "sweaters",
+        "Sweaters",
+        "Crewnecks",
+        "crewnecks"
+      ]
     },
     {
       "id": "3",
@@ -79,7 +90,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Pants"
+      "style": "Pants",
+      "description": [
+        "skinny",
+        "Skinny",
+        "skinny fit",
+        "Skinny fit",
+        "Jeans",
+        "jeans",
+        "pants",
+        "Pants"
+      ]
     },
     {
       "id": "4",
@@ -109,7 +130,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Pants"
+      "style": "Pants",
+      "description": [
+        "Regular",
+        "regular",
+        "regular fit",
+        "Regular Fit",
+        "Jeans",
+        "jeans",
+        "pants",
+        "Pants"
+      ]
     },
     {
       "id": "5",
@@ -129,7 +160,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Pants"
+      "style": "Pants",
+      "description": [
+        "sweatpants",
+        "Sweatpants",
+        "joggers",
+        "Joggers",
+        "sweatpant",
+        "Sweatpant",
+        "jogger",
+        "Jogger"
+      ]
     },
     {
       "id": "6",
@@ -155,7 +196,17 @@
       "salePrice": "28.29",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Pants"
+      "style": "Pants",
+      "description": [
+        "sweatpants",
+        "Sweatpants",
+        "joggers",
+        "Joggers",
+        "sweatpant",
+        "Sweatpant",
+        "jogger",
+        "Jogger"
+      ]
     },
     {
       "id": "7",
@@ -186,7 +237,17 @@
       "salePrice": "24.29",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Sweaters"
+      "style": "Sweaters",
+      "description": [
+        "hoodie",
+        "sweater",
+        "Hoodie",
+        "Sweater",
+        "hoodies",
+        "sweaters",
+        "Hoodies",
+        "Sweaters"
+      ]
     },
     {
       "id": "8",
@@ -206,7 +267,19 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "yes",
-      "style": "Shirts"
+      "style": "Shirts",
+      "description": [
+        "shirt",
+        "Shirt",
+        "t-shirt",
+        "T-shirt",
+        "graphic",
+        "Graphic",
+        "shirts",
+        "Shirts",
+        "t-shirts",
+        "T-shirts"
+      ]
     },
     {
       "id": "9",
@@ -226,7 +299,19 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "yes",
-      "style": "Sweaters"
+      "style": "Sweaters",
+      "description": [
+        "sweater",
+        "crewneck",
+        "Sweater",
+        "Crewneck",
+        "graphic",
+        "Graphic",
+        "sweaters",
+        "crewnecks",
+        "Sweaters",
+        "Crewnecks"
+      ]
     },
     {
       "id": "10",
@@ -261,7 +346,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Shirts"
+      "style": "Shirts",
+      "description": [
+        "shirt",
+        "Shirt",
+        "t-shirt",
+        "T-shirt",
+        "shirts",
+        "Shirts",
+        "t-shirts",
+        "T-shirts"
+      ]
     }
   ],
   "women": [
@@ -283,7 +378,8 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "yes",
-      "style": "Tops"
+      "style": "Tops",
+      "description": ["Tops", "Top", "tops", "top", "floral"]
     },
     {
       "id": "12",
@@ -314,7 +410,17 @@
       "salePrice": "29.99",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Pants"
+      "style": "Pants",
+      "description": [
+        "Pants",
+        "pants",
+        "Pant",
+        "pant",
+        "Slacks",
+        "Slack",
+        "slacks",
+        "slack"
+      ]
     },
     {
       "id": "13",
@@ -334,7 +440,8 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Skirts"
+      "style": "Skirts",
+      "description": ["Skirts", "skirt", "Skirt", "skirts"]
     },
     {
       "id": "14",
@@ -354,7 +461,19 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "yes",
-      "style": "Tops"
+      "style": "Tops",
+      "description": [
+        "shirt",
+        "shirts",
+        "Shirt",
+        "Shirts",
+        "t-shirt",
+        "t-shirts",
+        "T-shirt",
+        "T-shirts",
+        "graphic",
+        "Graphic"
+      ]
     },
     {
       "id": "15",
@@ -374,7 +493,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "yes",
-      "style": "Sweaters"
+      "style": "Sweaters",
+      "description": [
+        "sweater",
+        "sweaters",
+        "Sweater",
+        "Sweaters",
+        "Crewneck",
+        "crewneck",
+        "crewnecks",
+        "Crewnecks"
+      ]
     },
     {
       "id": "16",
@@ -405,7 +534,17 @@
       "salePrice": "20.00",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Tops"
+      "style": "Tops",
+      "description": [
+        "shirt",
+        "shirts",
+        "Shirt",
+        "Shirts",
+        "t-shirt",
+        "t-shirts",
+        "T-shirt",
+        "T-shirts"
+      ]
     },
     {
       "id": "17",
@@ -430,7 +569,19 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Tops"
+      "style": "Tops",
+      "description": [
+        "shirt",
+        "shirts",
+        "Shirt",
+        "Shirts",
+        "t-shirt",
+        "t-shirts",
+        "T-shirt",
+        "T-shirts",
+        "stripes",
+        "Stripes"
+      ]
     },
     {
       "id": "17",
@@ -455,7 +606,8 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Skirts"
+      "style": "Skirts",
+      "description": ["Skirts", "skirt", "Skirt", "skirts"]
     },
     {
       "id": "18",
@@ -480,7 +632,15 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Dresses"
+      "style": "Dresses",
+      "description": [
+        "Dress",
+        "dress",
+        "Dresses",
+        "dresses",
+        "floral",
+        "Floral"
+      ]
     },
     {
       "id": "19",
@@ -510,7 +670,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Sweaters"
+      "style": "Sweaters",
+      "description": [
+        "hoodie",
+        "sweater",
+        "Hoodie",
+        "Sweater",
+        "hoodies",
+        "sweaters",
+        "Hoodies",
+        "Sweaters"
+      ]
     },
     {
       "id": "20",
@@ -535,7 +705,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Sweaters"
+      "style": "Sweaters",
+      "description": [
+        "hoodie",
+        "sweater",
+        "Hoodie",
+        "Sweater",
+        "hoodies",
+        "sweaters",
+        "Hoodies",
+        "Sweaters"
+      ]
     },
     {
       "id": "21",
@@ -570,7 +750,21 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "yes",
-      "style": "Tops"
+      "style": "Tops",
+      "description": [
+        "Tops",
+        "Top",
+        "tops",
+        "top",
+        "Crop",
+        "crop",
+        "Croptop",
+        "croptop",
+        "Crops",
+        "crops",
+        "Croptops",
+        "croptops"
+      ]
     },
     {
       "id": "22",
@@ -590,7 +784,15 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Dresses"
+      "style": "Dresses",
+      "description": [
+        "Dress",
+        "Dresses",
+        "dress",
+        "dresses",
+        "bodycon",
+        "Bodycon"
+      ]
     },
     {
       "id": "22",
@@ -620,7 +822,17 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Dresses"
+      "style": "Dresses",
+      "description": [
+        "Dress",
+        "Dresses",
+        "dress",
+        "dresses",
+        "bodycon",
+        "Bodycon",
+        "collard",
+        "Collard"
+      ]
     },
     {
       "id": "23",
@@ -645,7 +857,8 @@
       "sale": "no",
       "sizes": ["S", "M", "L", "XL"],
       "new": "no",
-      "style": "Pants"
+      "style": "Pants",
+      "description": ["90s", "90s", "Jeans", "jeans", "pants", "Pants"]
     }
   ]
 }
